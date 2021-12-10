@@ -113,25 +113,25 @@ $(window).on('load', function() {
         }
     });
 
-    new Swiper('.partnership-slider', {
-        speed: 400,
-        loop: true,
-        autoplay: {
-            delay: 4000,
-            disableOnInteraction: false
-        },
-        slidesPerView: 'auto',
-        breakpoints: {
-            320: {
-                slidesPerView: 1,
-                spaceBetween: 40
-            },
-            480: {
-                slidesPerView: 1,
-                spaceBetween: 60
-            }
-        }
-    });
+    // new Swiper('.partnership-slider', {
+    //     speed: 400,
+    //     loop: true,
+    //     autoplay: {
+    //         delay: 4000,
+    //         disableOnInteraction: false
+    //     },
+    //     slidesPerView: 'auto',
+    //     breakpoints: {
+    //         320: {
+    //             slidesPerView: 1,
+    //             spaceBetween: 40
+    //         },
+    //         480: {
+    //             slidesPerView: 1,
+    //             spaceBetween: 60
+    //         }
+    //     }
+    // });
 
 
     switch (body.attr('data-page')) {
