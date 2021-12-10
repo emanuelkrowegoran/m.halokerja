@@ -6840,7 +6840,7 @@ padding-top: 25px;
     .card>div {
         z-index: 1;
     }
-    .kategori {
+    .kategorilowongan {
         padding: 0 0 10px 15px;
     }
     
@@ -7378,7 +7378,7 @@ padding-top: 25px;
     .area .info-box {
         background: #fff;
         box-shadow: 0px 3px 3px rgba(1, 41, 112, 0.1);
-        padding: 15px 20px;
+        padding: 2px 12px;
         text-align: center;
         border-radius: 10px;
     }
@@ -7419,7 +7419,7 @@ padding-top: 25px;
         margin: 0 0 50px 0;
     }
     .industri .info-box {
-        background: #FFFFF6;
+        background: #fafbff;
         box-shadow: 0px 3px 3px rgba(1, 41, 112, 0.1);
         padding: 10px 5px 10px 15px;
         text-align: center;
@@ -7574,12 +7574,14 @@ padding-top: 25px;
         padding: 15px;
     }
     .detailsatulowongan .sidebar-deskripsi p {
-        font-size: 16px;
+        font-size: 14px;
         padding: 0 15px;
     }
     .detailsatulowongan .sidebar-deskripsi h3 {
-        font-size: 16px;
+        font-size: 14px;
         padding: 0 15px;
+        color: #000;
+        font-weight: bold;
     }
     .detailsatulowongan .entry .entry-tagss .cats {
         list-style: none;
