@@ -6841,7 +6841,7 @@ padding-top: 25px;
         z-index: 1;
     }
     .kategori {
-        padding: 0 15px;
+        padding: 0 0 10px 15px;
     }
     
     .categoriesswiper .swiper-wrapper .swiper-slide {
