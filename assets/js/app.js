@@ -68,12 +68,11 @@ $(window).on('load', function() {
         }
     });
 
-
-    new Swiper('.sectionlowongan-slider', {
+    new Swiper('.hero-slider', {
         speed: 400,
         loop: true,
         autoplay: {
-            delay: 4000,
+            delay: 5000,
             disableOnInteraction: false
         },
         slidesPerView: 'auto',
@@ -88,16 +87,56 @@ $(window).on('load', function() {
                 spaceBetween: 40
             },
             480: {
+                slidesPerView: 1,
+                spaceBetween: 60
+            }
+        }
+    });
+
+    new Swiper('.lowonganpremium-slider', {
+        speed: 400,
+        loop: true,
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false
+        },
+        slidesPerView: 'auto',
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 40
+            },
+            480: {
                 slidesPerView: 2,
                 spaceBetween: 60
             },
             768: {
                 slidesPerView: 2,
                 spaceBetween: 60
+            }
+        }
+    });
+
+    new Swiper('.partnership-slider', {
+        speed: 400,
+        loop: true,
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false
+        },
+        slidesPerView: 'auto',
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 40
             },
-            992: {
-                slidesPerView: 4,
-                spaceBetween: 20
+            480: {
+                slidesPerView: 2,
+                spaceBetween: 60
+            },
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 60
             }
         }
     });
