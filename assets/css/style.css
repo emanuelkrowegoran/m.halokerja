@@ -4702,7 +4702,6 @@ fieldset:disabled .btn {
     }
 }
 
-
 .carousel {
     position: relative;
 }
@@ -6437,7 +6436,6 @@ fieldset:disabled .btn {
 
 /* 5. body */
 
-
 body {
     font-family: "PT Sans", sans-serif;
     font-size: 16px;
@@ -6445,7 +6443,6 @@ body {
     background-attachment: fixed, fixed;
     background-color: #ffffff;
 }
-
 
 .bg-warning-light {
     background-color: #fffaeb;
@@ -6476,8 +6473,6 @@ body {
     padding-bottom: 55px;
     border-radius: 0 0 36px 36px;
 }
-
-
 
 
 /* 6. button */
@@ -6677,8 +6672,6 @@ body {
 }
 
 
-
-
 /* 9. header */
 
 .header {
@@ -6781,9 +6774,6 @@ padding-top: 25px;
 }
 
 
-
-
-
 /* 17. Filter */
 
 .filter {
@@ -6800,33 +6790,30 @@ padding-top: 25px;
 .filter-open .filter {
     right: 0;
 }
+
 ::-webkit-scrollbar {
     width: 0px;
     height: 0px;
 }
 
-
-
 @media (max-width: 768px) {
     .menu {
         padding: 0 15px;
     }
-.menuswiper .swiper-wrapper .swiper-slide {
-    width: 70px;
-    padding: 0;
-    text-align: center;
-}
-
-.menuswiper .swiper-wrapper .swiper-slide .menuname {
-    font-size: 12px;
-    line-height: 40px;
-    font-weight: 700;
-    color: #0C9869;
-}
-
-.menuswiper .swiper-wrapper .swiper-slide a {
-    text-decoration: none
-}
+    .menuswiper .swiper-wrapper .swiper-slide {
+        width: 70px;
+        padding: 0;
+        text-align: center;
+    }
+    .menuswiper .swiper-wrapper .swiper-slide .menuname {
+        font-size: 12px;
+        line-height: 40px;
+        font-weight: 700;
+        color: #0C9869;
+    }
+    .menuswiper .swiper-wrapper .swiper-slide a {
+        text-decoration: none
+    }
 }
 
 @media (max-width: 768px) {
@@ -6836,26 +6823,22 @@ padding-top: 25px;
         background-color: transparent;
         color: #000000;
     }
-    
     .card>div {
         z-index: 1;
     }
     .kategorilowongan {
         padding: 0 0 10px 15px;
     }
-    
     .categoriesswiper .swiper-wrapper .swiper-slide {
         width: 70px;
         padding: 0;
         text-align: center;
     }
-    
     .categoriesswiper .swiper-wrapper .swiper-slide img {
         width: 100%;
         margin: 0 auto;
         height: 100%;
     }
-    
     .categoriesswiper .swiper-wrapper .swiper-slide .categoryname {
         font-size: 10px;
         padding-top: 10px;
@@ -6864,16 +6847,15 @@ padding-top: 25px;
 
 @media (max-width: 768px) {
     .hero {
-        padding: 12px 0;
+        padding: 8px 0;
     }
     .hero .promo-item img {
         width: 100%;
     }
     .hero .swiper-pagination {
-        margin-top: 20px;
+        margin-top: -20px;
         position: relative;
     }
-    
     .hero .swiper-pagination .swiper-pagination-bullet {
         width: 6px;
         height: 6px;
@@ -6881,11 +6863,10 @@ padding-top: 25px;
         opacity: 1;
         border: 1px solid #0C9869;
     }
-    
     .hero .swiper-pagination .swiper-pagination-bullet-active {
         background-color: #0C9869;
     }
- }
+}
 
 @media (max-width: 768px) {
     .lowonganpremium {
@@ -6893,7 +6874,6 @@ padding-top: 25px;
         padding-top: 30px;
         overflow: hidden;
     }
-    
     .lowonganpremium .lowonganpremium-slider .item-lowongan-premium {
         padding: 20px 15px;
         border: 1px solid transparent;
@@ -6922,7 +6902,6 @@ padding-top: 25px;
     .lowonganpremium {
         padding-bottom: 50px;
     }
-    
     .lowonganpremium .lowonganpremium-slider .item-lowongan-premium .bagian-kiri .thumb img {
         width: 65px;
         padding: 0 5px 5px 5px;
@@ -6938,7 +6917,6 @@ padding-top: 25px;
         border: 1px solid #F0F0F0;
         justify-content: center;
     }
-    
     .lowonganpremium .lowonganpremium-slider .item-lowongan-premium .bagian-kiri .date {
         text-align: left;
         margin-top: 10px;
@@ -6949,11 +6927,9 @@ padding-top: 25px;
         font-style: italic;
         color: #7A838B;
     }
-
     .lowonganpremium .lowonganpremium-slider .item-lowongan-premium .bagian-kanan {
         padding-left: 10px;
     }
-
     .lowonganpremium .lowonganpremium-slider .item-lowongan-premium .bagian-kanan .konten-lowongan .links_locat .nama-perusahaan h2 {
         font-size: 10px;
         margin-bottom: 2px;
@@ -7005,7 +6981,6 @@ padding-top: 25px;
         color: #a5c5fe;
         font-size: 14px;
     }
-    
     .lowonganpremium .lowonganpremium-slider .item-lowongan-premium:hover {
         border-color: #23A2B8;
     }
@@ -7018,13 +6993,13 @@ padding-top: 25px;
     .partnership-slider {
         padding: 10px 10px;
     }
-    .partnership .partnership-slider  {
+    .partnership .partnership-slider {
         padding: 10px;
         border: 1px solid transparent;
         transition: 0.3s;
         border-radius: 5px;
     }
-    .partnership .partnership-slider  .swiper-wrapper .swiper-slide .img-promo img {
+    .partnership .partnership-slider .swiper-wrapper .swiper-slide .img-promo img {
         width: 100%;
         padding: 10px 20px;
     }
@@ -7043,7 +7018,6 @@ padding-top: 25px;
         color: #fff;
         font-weight: 700;
     }
-    
     .lowongankerja-biasa .list-lowongan .item-lowongan .bagian-kiri .apply_now .btn-detaillowongan {
         border-radius: 4px;
         padding: 10px 12px;
@@ -7064,7 +7038,6 @@ padding-top: 25px;
     .lowongankerja-biasa {
         padding-bottom: 50px;
     }
-    
     .lowongankerja-biasa .list-lowongan .item-lowongan .bagian-kiri .thumb img {
         width: 65px;
         padding: 0 5px 5px 5px;
@@ -7080,7 +7053,6 @@ padding-top: 25px;
         border: 1px solid #F0F0F0;
         justify-content: center;
     }
-    
     .lowongankerja-biasa .list-lowongan .item-lowongan .bagian-kiri .date {
         text-align: left;
         margin-top: 10px;
@@ -7091,7 +7063,6 @@ padding-top: 25px;
         font-style: italic;
         color: #7A838B;
     }
-
     .lowongankerja-biasa .list-lowongan .item-lowongan {
         padding: 10px;
         margin-bottom: 12px;
@@ -7156,7 +7127,6 @@ padding-top: 25px;
         color: #a5c5fe;
         font-size: 14px;
     }
-    
     .lowongankerja-biasa .list-lowongan .item-lowongan:hover {
         border-color: #23A2B8;
     }
@@ -7171,46 +7141,42 @@ padding-top: 25px;
         padding: 0 0 30px 0;
         font-size: 14px;
     }
-.footer .footer-top {
-    border-top: 1px solid #e1ecff;
-    border-bottom: 1px solid #e1ecff;
-    padding: 30px 0 30px 0;
+    .footer .footer-top {
+        border-top: 1px solid #e1ecff;
+        border-bottom: 1px solid #e1ecff;
+        padding: 30px 0 30px 0;
+    }
+    .footer .footer-top .social-links a {
+        font-size: 20px;
+        display: inline-block;
+        color: #0C9869;
+        line-height: 0;
+        margin-right: 10px;
+        transition: 0.3s;
+    }
+    .footer .footer-top .social-links a:hover {
+        color: #24a2b8;
+    }
+    .footer .footer-top img {
+        width: 120px;
+        padding-bottom: 10px;
+    }
+    .footer .footer-top h4 {
+        font-size: 12px;
+        font-weight: bold;
+        color: #0C9869;
+        text-transform: uppercase;
+        position: relative;
+        padding-bottom: 8px;
+    }
+    .footer .copyright {
+        text-align: center;
+        padding-top: 30px;
+        color: #0C9869;
+        font-size: 12px;
+    }
 }
 
-.footer .footer-top .social-links a {
-    font-size: 20px;
-    display: inline-block;
-    color: #0C9869;
-    line-height: 0;
-    margin-right: 10px;
-    transition: 0.3s;
-}
-
-.footer .footer-top .social-links a:hover {
-    color: #24a2b8;
-}
-
-.footer .footer-top img {
-    width: 120px;
-    padding-bottom: 10px;
-}
-
-.footer .footer-top h4 {
-    font-size: 12px;
-    font-weight: bold;
-    color: #0C9869;
-    text-transform: uppercase;
-    position: relative;
-    padding-bottom: 8px;
-}
-
-.footer .copyright {
-    text-align: center;
-    padding-top: 30px;
-    color: #0C9869;
-    font-size: 12px;
-}
-}
 @media (max-width: 768px) {
     .contact {
         text-align: center;

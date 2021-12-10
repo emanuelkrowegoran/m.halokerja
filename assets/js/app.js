@@ -40,7 +40,8 @@ $(window).on('load', function() {
         }
     });
 
-     /**
+
+    /**
      * Cara Pasang Iklan Mobile Slider
      */
     new Swiper('.pasangiklanmobile-slider', {
@@ -121,7 +122,6 @@ $(window).on('load', function() {
         }
     });
 
-
     new Swiper('.partnership-slider', {
         speed: 400,
         loop: true,
@@ -130,11 +130,6 @@ $(window).on('load', function() {
             disableOnInteraction: false
         },
         slidesPerView: 'auto',
-        pagination: {
-            el: '.swiper-pagination',
-            type: 'bullets',
-            clickable: true
-        },
         breakpoints: {
             320: {
                 slidesPerView: 1,
@@ -142,18 +137,11 @@ $(window).on('load', function() {
             },
             480: {
                 slidesPerView: 1,
-                spaceBetween: 40
-            },
-            640: {
-                slidesPerView: 1,
-                spaceBetween: 40
-            },
-            991: {
-                slidesPerView: 1,
-                spaceBetween: 50
+                spaceBetween: 60
             }
         }
     });
+
 
     // new Swiper('.partnership-slider', {
     //     speed: 400,
