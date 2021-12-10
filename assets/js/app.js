@@ -109,10 +109,6 @@ $(window).on('load', function() {
             480: {
                 slidesPerView: 1,
                 spaceBetween: 60
-            },
-            768: {
-                slidesPerView: 1,
-                spaceBetween: 60
             }
         }
     });
@@ -131,10 +127,6 @@ $(window).on('load', function() {
                 spaceBetween: 40
             },
             480: {
-                slidesPerView: 1,
-                spaceBetween: 60
-            },
-            768: {
                 slidesPerView: 1,
                 spaceBetween: 60
             }
