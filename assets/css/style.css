@@ -628,19 +628,6 @@ progress {
     color: #6c757d;
 }
 
-.container,
-.container-fluid,
-.container-sm,
-.container-md,
-.container-lg,
-.container-xl,
-.container-xxl {
-    width: 100%;
-    padding-right: var(--bs-gutter-x, 0.75rem);
-    padding-left: var(--bs-gutter-x, 0.75rem);
-    margin-right: auto;
-    margin-left: auto;
-}
 
 @media (min-width: 576px) {
     .container,
@@ -6851,6 +6838,18 @@ padding-top: 25px;
         height: 260px;
         border-radius: 0 0 28px 28px;
     }
+    
+    .container,
+    .container-fluid,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl,
+    .container-xxl {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
     .top .top-logo {
         padding: 20px;
         text-align: center;
@@ -6885,11 +6884,11 @@ padding-top: 25px;
         background-color: #055160;
     }
     .filter .card-header h6 {
-        color: #000;
+        color: #fff;
         font-size: 16px;
     }
     .filter .card-body h6 {
-        color: #000;
+        color: #fff;
         font-size: 14px;
     }
     .filter .btn-filter .filter-button {
