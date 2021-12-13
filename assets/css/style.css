@@ -5199,7 +5199,7 @@ fieldset:disabled .btn {
 
 .sticky-top {
     position: sticky;
-    top: 0;
+    top: 40px;
     z-index: 1020;
 }
 
@@ -6799,6 +6799,8 @@ padding-top: 25px;
 @media (max-width: 768px) {
     .menu {
         padding: 0 15px;
+        position: fixed;
+        top: 0;
     }
     .menuswiper .swiper-wrapper .swiper-slide {
         width: 70px;
@@ -6827,7 +6829,7 @@ padding-top: 25px;
         z-index: 1;
     }
     .kategorilowongan {
-        padding: 0 0 10px 15px;
+        padding: 8px 0 0 15px;
     }
     .categoriesswiper .swiper-wrapper .swiper-slide {
         width: 70px;
@@ -6842,6 +6844,64 @@ padding-top: 25px;
     .categoriesswiper .swiper-wrapper .swiper-slide .categoryname {
         font-size: 10px;
         padding-top: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .top {
+        background-color: #055160;
+        height: 260px;
+        border-radius: 0 0 28px 28px;
+        position: fixed;
+        top: 0;
+        z-index: 9;
+    }
+    .top .top-logo {
+        padding: 20px;
+        text-align: center;
+    }
+    .top .konten-halokerja {
+        text-align: left;
+        color: #fff;
+    }
+    .top .konten-halokerja h2 {
+        font-size: 18px;
+        font-weight: bold;
+        width: 250px;
+    }
+    .top .konten-halokerja p {
+        font-size: 14px;
+    }
+    .top .img-logo img {
+        width: 100%;
+    }
+    .top .cari-lowongam .filter-btn {
+        width: 60px;
+        background-color: #fff;
+        border: 0;
+        border-radius: 12px;
+        height: 50px;
+        color: #0C9869;
+    }
+}
+
+@media (max-width: 768px) {
+    .filter {
+        background-color: #055160;
+    }
+    .filter .card-header h6 {
+        color: #000;
+        font-size: 16px;
+    }
+    .filter .card-body h6 {
+        color: #000;
+        font-size: 14px;
+    }
+    .filter .btn-filter .filter-button {
+        color: #fff;
+        background-color: #f7003b;
+        width: 230px;
+        border-radius: 8px;
     }
 }
 
