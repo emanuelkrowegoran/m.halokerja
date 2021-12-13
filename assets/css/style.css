@@ -6799,8 +6799,6 @@ padding-top: 25px;
 @media (max-width: 768px) {
     .menu {
         padding: 0 15px;
-        position: fixed;
-        top: 0;
     }
     .menuswiper .swiper-wrapper .swiper-slide {
         width: 70px;
@@ -6852,9 +6850,6 @@ padding-top: 25px;
         background-color: #055160;
         height: 260px;
         border-radius: 0 0 28px 28px;
-        position: fixed;
-        top: 0;
-        z-index: 9;
     }
     .top .top-logo {
         padding: 20px;
