@@ -6786,7 +6786,9 @@ padding-top: 25px;
 
 @media (max-width: 768px) {
     .menu {
-        padding: 0 15px;
+        padding: 130px 15px 0 15px;
+        /* position: fixed;
+        z-index: 999; */
     }
     .menuswiper .swiper-wrapper .swiper-slide {
         width: 70px;
@@ -6834,6 +6836,14 @@ padding-top: 25px;
 }
 
 @media (max-width: 768px) {
+    #top {
+        z-index: 999;
+        top: 0;
+        position: fixed;
+    }
+}
+
+@media (max-width: 768px) {
     .top {
         background-color: #055160;
         height: 260px;
@@ -6855,6 +6865,10 @@ padding-top: 25px;
     .top .top-logo {
         padding: 20px;
         text-align: center;
+    }
+    .top .top-logo .info-login i{
+        font-size: 20px;
+        padding: 100px 0 0 100px;
     }
     .top .konten-halokerja {
         text-align: left;
