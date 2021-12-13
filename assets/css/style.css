@@ -6870,6 +6870,12 @@ padding-top: 25px;
         font-size: 20px;
         padding: 100px 0 0 100px;
     }
+
+    .top .top-logo .info-login i:hover{
+        font-size: 20px;
+        padding: 100px 0 0 100px;
+        color: #20c997;
+    }
     .top .konten-halokerja {
         text-align: left;
         color: #fff;
